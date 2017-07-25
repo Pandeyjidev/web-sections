@@ -1,0 +1,66 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1;
+}
+
+h1 {
+    font-size: 150%;
+}
+
+p {
+    margin-bottom: 1px;
+}
+
+.paddingBlock {
+    padding: 2px 50px;
+}
+
+.eqWrap {
+    display: flex;
+}
+
+.eq {
+    padding: 0.79%;
+    background: #DCDCDC;
+}
+
+
+/* 
+.eq:nth-of-type(odd) {
+	background: #DCDCDC;
+}
+
+.eq:nth-of-type(even) {
+	background: #DCDCDC;
+}
+ */
+
+.welcome {
+    background: Green;
+}
+
+.equalHMWrap {
+    justify-content: space-between;
+}
+
+.equalHMRWrap {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.equalHMR {
+    width: 4px;
+    margin-bottom: 2px;
+}
